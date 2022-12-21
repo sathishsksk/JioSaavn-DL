@@ -93,7 +93,7 @@ def play(id):
 	params = (
 	    ('__call', 'song.generateAuthToken'),
 	    ('url', str(id)),
-	    ('bitrate', '320'),
+	    ('bitrate', '128'),
 	    ('api_version', '4'),
 	    ('_format', 'json'),
 	    ('ctx', 'wap6dot0'),
